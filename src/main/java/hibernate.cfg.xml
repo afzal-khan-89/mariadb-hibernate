@@ -11,8 +11,20 @@
 		<property name="hibernate.hbm2ddl.auto">create</property>
 		<property name="show_sql">true</property>
 		
-		<mapping class="com.vts.dbhibernate.Users"/>
 		
+		<mapping class="com.vts.dbhibernate.Users"/>
+		<mapping class="com.vts.dbhibernate.enitity.Asset"/>
+		<mapping class="com.vts.dbhibernate.enitity.AssetGroup"/>	
+		<mapping class="com.vts.dbhibernate.enitity.Device"/>
+		<mapping class="com.vts.dbhibernate.enitity.InstallLog"/>
+		<mapping class="com.vts.dbhibernate.enitity.user.User"/>
+		<mapping class="com.vts.dbhibernate.enitity.user.VTSUser"/>
+		<mapping class="com.vts.dbhibernate.enitity.user.VtsClient"/>
+		<mapping class="com.vts.dbhibernate.enitity.user.Consortium"/> 
+		<mapping class="com.vts.dbhibernate.enitity.user.Authorities"/> 
+		<mapping class="com.vts.dbhibernate.enitity.user.VtsUserSupervisor"/>
+		<mapping class="com.vts.dbhibernate.enitity.user.ClientAdmin"/> 
+		<mapping class="com.vts.dbhibernate.enitity.user.ConsortiumSupervisor"/> 
 	</session-factory>
 </hibernate-configuration>
 
